@@ -1,0 +1,9 @@
+{
+	"name": "adfcourse-ramya",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b3b52452-58b0-42b3-a1be-c211b5852c53",
+		"tenantId": "ced7ee77-dbf4-4955-aaf6-9c0f3f80e70a"
+	}
+}
