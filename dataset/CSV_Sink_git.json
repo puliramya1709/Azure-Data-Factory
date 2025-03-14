@@ -1,19 +1,19 @@
 {
-	"name": "CSV_Git_Source",
+	"name": "CSV_Sink_git",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LinkedService_Git",
+			"referenceName": "linkedserviceDL",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "HttpServerLocation",
-				"relativeUrl": "puliramya1709/Azure-Data-Factory/refs/heads/main/Fact_Sales_1.csv"
+				"type": "AzureBlobFSLocation",
+				"folderPath": "csvfiles",
+				"fileSystem": "destination"
 			},
 			"columnDelimiter": ",",
-			"rowDelimiter": "\n",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
