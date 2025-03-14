@@ -1,0 +1,22 @@
+{
+	"name": "CSV_Git_Source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedService_Git",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "puliramya1709/Azure-Data-Factory/refs/heads/main/Fact_Sales_1.csv?token=GHSAT0AAAAAADAPLPC2WO3LRKECTLTSK3BIZ6TX3CQ"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
