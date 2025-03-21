@@ -1,10 +1,6 @@
 {
 	"name": "CSV_Git_Source",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "LinkedService_Git",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
