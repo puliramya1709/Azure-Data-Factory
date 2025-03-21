@@ -1,10 +1,6 @@
 {
 	"name": "CSV_Sink_git",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "linkedserviceDL",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
